@@ -43,22 +43,22 @@ if (numA == 20 || numB == 40) {
 
 
 //3
-var numA = 20;
-var numB = 0;
-if (!numB) {
-  console.log("NOTの条件と一致した処理");
-  console.log(numA);
+var numA = 10;
+var numB = 20;
+if (numA !== 20) {
+  console.log("値が等しくない");
+  console.log("true");
 } else {
-  console.log("NOTの条件と一致しなかった処理");
-  console.log(numB);
+  console.log("値が等しい");
+  console.log("false");
 }
 
-var numA = 20;
-var numB = 0;
-if (!numA) {
-  console.log("NOTの条件と一致した処理");
-  console.log(numA)
+var numA = 10;
+var numB = 20;
+if (numA !== 10) {
+  console.log("値が等しくない");
+  console.log("true");
 } else {
-  console.log("NOTの条件と一致しなかった処理");
-  console.log(numB);
+  console.log("値が等しい");
+  console.log("false");
 }
