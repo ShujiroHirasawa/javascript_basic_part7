@@ -43,22 +43,16 @@ if (numA == 20 || numB == 40) {
 
 
 //3
-var numA = 10;
-var numB = 20;
-if (numA !== 20) {
-  console.log("値が等しくない");
-  console.log("true");
+var num = 10;
+if (num !== 20) {
+  console.log(num !== 20);
 } else {
-  console.log("値が等しい");
-  console.log("false");
+  console.log(num !== 20);
 }
 
-var numA = 10;
-var numB = 20;
-if (numA !== 10) {
-  console.log("値が等しくない");
-  console.log("true");
+var num = 20;
+if (num !== 20) {
+  console.log(num !== 20);
 } else {
-  console.log("値が等しい");
-  console.log("false");
+  console.log(num !== 20);
 }
